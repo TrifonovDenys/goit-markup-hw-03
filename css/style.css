@@ -182,6 +182,8 @@ h1,h2,h3,h4,h5,h6,p,ul{
 .container{
   width: 1158px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 
