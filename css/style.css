@@ -207,7 +207,7 @@ nav, .nav-list, .addres-list,.features-list, .about-us-list, .our-team-list, .po
 .logo-header{
   margin-right: 76px;
 }
-.contact-link:last-child{
+.addres-list-item:last-child{
   margin-left: 40px;
 }
 .hero{
