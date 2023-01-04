@@ -19,13 +19,16 @@ body{
 } 
 .link{text-decoration: none;}
 .list{list-style: none;} 
-
+.section {
+  padding: 120px 0;
+}
 .section-subtitle{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  margin-bottom: 8px;
 }
 .section-description{
   line-height: 1.5;
@@ -48,6 +51,7 @@ body{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-weight: 800;
+  margin-right: 76px;   
 }
 .logo-header > span{
   color: var(--primary-brand-color);
@@ -78,6 +82,7 @@ body{
 /* main */
 .hero{
   background: var(--dark-color);
+  padding: 188px 0;
 }
 .main-title{
   font-size: 56px;
@@ -85,6 +90,8 @@ body{
   text-align: center;
   letter-spacing: 0.02em; 
   color: var(--site-background);
+  margin: 0 auto 48px;
+  max-width: 500px;
 }
 .order-button {
   color: var(--site-background);
@@ -104,6 +111,7 @@ body{
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-bottom: 72px;
 }
 
 
@@ -130,6 +138,7 @@ body{
 /* footer */
 .footer{
   background: var(--dark-color);
+  padding: 100px 0;
 }
 .logo-footer {
   color: var(--light-color);
@@ -144,6 +153,8 @@ body{
 }
 .footer-text{
   color: var(--accent-color) ;
+  margin-top: 16px;
+  width: 25%;
 }
 
 
@@ -201,19 +212,12 @@ nav, .list, .flex{
   margin-right: 40px;
 }
 
-.logo-header{
-  margin-right: 76px;
-}
-
 .addres-list-item:last-child{
   margin-left: 40px;
 }
 
-.hero{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 188px 0;
+.features{
+  padding: 120px 0 0 0;
 }
 
 .order-button{
@@ -222,32 +226,8 @@ nav, .list, .flex{
   border: none;
 }
 
-.main-title{
-  margin-bottom: 48px;
-}
-
-.section-subtitle{
-  margin-bottom: 8px;
-}
-
 .features-item{
   flex-basis: calc((100% - 72px) / 4);
-}
-
-.features-item:not(:last-child){
-  margin-right: 24px;
-}
-
-section:not(:last-child){
-  margin-bottom: 120px;
-}
-
-.section-title{
-  margin-bottom: 72px;
-}
-
-.our-team{
-  padding: 120px 0;
 }
 
 .our-team-underblock{
@@ -261,16 +241,6 @@ section:not(:last-child){
   0px 1px 1px rgba(46, 47, 66, 0.16),
   0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-}
-
-.footer{
-  padding: 100px 0;
-  
-}
-
-.footer-text{
-  padding-top: 16px;
-  width: 25%;
 }
 
 .portfolio{
