@@ -179,6 +179,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
   margin: 0;
   padding: 0;
 }
+
 .container{
   width: 1158px;
   margin: 0 auto;
@@ -186,66 +187,67 @@ h1,h2,h3,h4,h5,h6,p,ul{
   padding-right: 15px;
 }
 
-
-nav, .nav-list, .addres-list,.features-list, .about-us-list, .our-team-list, .portfolio-buttons, .portfolio-list, .flex {
-  display:flex;
-
-}
-.flex{
+nav, .list, .flex{
+  display: flex;
   justify-content: space-between;
 }
 
 .header{
   border-bottom: 1px solid var(--accent-color);
-  justify-content: space-between;
   padding: 24px 0;
 }
 
 .nav-list-item:not(:last-child){
   margin-right: 40px;
 }
+
 .logo-header{
   margin-right: 76px;
 }
+
 .addres-list-item:last-child{
   margin-left: 40px;
 }
+
 .hero{
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 188px 0;
 }
+
 .order-button{
   display: block;
   margin: 0 auto;
   border: none;
 }
+
 .main-title{
   margin-bottom: 48px;
 }
+
 .section-subtitle{
   margin-bottom: 8px;
 }
+
+.features-item{
+  flex-basis: calc((100% - 72px) / 4);
+}
+
 .features-item:not(:last-child){
   margin-right: 24px;
 }
+
 section:not(:last-child){
   margin-bottom: 120px;
 }
+
 .section-title{
   margin-bottom: 72px;
 }
 
-.about-us-list{
-  justify-content: space-between;
-}
-
 .our-team{
   padding: 120px 0;
-}
-.our-team-list{
-  justify-content: space-between;
 }
 
 .our-team-underblock{
@@ -253,16 +255,19 @@ section:not(:last-child){
   padding: 32px 0;
   border-radius: 0px 0px 4px 4px;
 }
+
 .underblock-shadow{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   0px 1px 1px rgba(46, 47, 66, 0.16),
   0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+
 .footer{
   padding: 100px 0;
   
 }
+
 .footer-text{
   padding-top: 16px;
   width: 25%;
@@ -271,20 +276,24 @@ section:not(:last-child){
 .portfolio{
   padding: 96px 0 120px;
 }
+
 .portfolio-buttons{
   justify-content: center;
   margin-bottom: 72px;
 }
+
 .portfolio-button-item:not(:last-child){
   margin-right: 24px;
 }
+
 .portfolio-list{
   flex-wrap: wrap;
-  justify-content: space-between;
 }
+
 .portfolio-item:not(:nth-last-child(-n + 3)){
   margin-bottom: 48px;
 }
+
 .portfolio-item-underblock{
   padding: 32px 0 32px 16px;
   border-bottom: 1px solid var(--accent-color);
